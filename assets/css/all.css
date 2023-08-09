@@ -192,6 +192,30 @@ section {
   padding: 12px 20px;
 }
 
+.about__num_bg_r {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -400px;
+}
+@media all and (max-width: 767px) {
+  .about__num_bg_r {
+    width: 40%;
+  }
+}
+
+.about__num_bg_l {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -200px;
+}
+@media all and (max-width: 767px) {
+  .about__num_bg_l {
+    width: 40%;
+  }
+}
+
 /*------------------------------------*\
     $SECTION
 \*------------------------------------*/
@@ -212,6 +236,12 @@ section {
   color: #FFFFFF;
 }
 
+.about__whatis {
+  position: relative;
+}
+.about__whatis span {
+  color: #0096FF;
+}
 .about__whatis .about_sec_title {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -257,6 +287,9 @@ section {
   }
 }
 
+.about__num {
+  position: relative;
+}
 .about__num .papiin_numitem {
   padding-top: 56px;
   padding-bottom: 56px;
@@ -279,6 +312,14 @@ section {
 .about__identity {
   background-image: url(../images/img_identity_bg.jpg);
   overflow: hidden;
+}
+.about__identity .papiin_chatitem__inner {
+  max-width: 410px;
+}
+@media all and (max-width: 767px) {
+  .about__identity .papiin_chatitem__inner {
+    max-width: none;
+  }
 }
 .about__identity .about_sec_content {
   -webkit-box-flex: 1;
@@ -364,7 +405,7 @@ section {
   width: 1000px;
   top: 0;
   right: 0;
-  margin-right: 148px;
+  margin-right: 100px;
 }
 @media all and (max-width: 767px) {
   .about__identity .papiin_agents .identityimg {
