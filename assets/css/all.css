@@ -296,14 +296,13 @@ section {
 .about__num .papiin_numitem {
   padding-top: 56px;
   padding-bottom: 56px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  width: 33.3%;
 }
 @media all and (max-width: 767px) {
   .about__num .papiin_numitem {
     padding-top: 32px;
     padding-bottom: 32px;
+    width: 100%;
   }
 }
 .about__num .numimg {
