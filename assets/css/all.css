@@ -185,26 +185,11 @@ section {
   }
 }
 
-.p-button_sec {
-  border-radius: 50px;
-  color: #FFFFFF;
-  padding: 12px 20px;
-  border: 2px solid #FFFFFF;
-}
-.p-button_sec:hover {
-  color: #FAFAFA;
-  border: 2px solid #FAFAFA;
-}
-
 .p-button {
   background-color: #FFFFFF;
   border-radius: 50px;
   color: #F1341C;
   padding: 12px 20px;
-}
-.p-button:hover {
-  background-color: #FAFAFA;
-  color: #F1341C;
 }
 
 .about__num_bg_r {
@@ -344,7 +329,6 @@ section {
           flex-grow: 1;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  width: 50%;
 }
 @media all and (max-width: 767px) {
   .about__identity .about_sec_content {
@@ -425,6 +409,7 @@ section {
   width: 1000px;
   top: 0;
   right: 0;
+  margin-right: 100px;
 }
 @media all and (max-width: 767px) {
   .about__identity .papiin_agents .identityimg {
